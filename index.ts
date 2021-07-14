@@ -48,7 +48,12 @@ obj1={
   isAge: 24,
   isTure: false
 
+
 }
+let ninija: object;
+ninija=[{Firts: "moiz"}]
+console.log(ninija);
+
 // console.log(obj1);
 
 

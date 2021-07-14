@@ -32,4 +32,7 @@ obj1 = {
     isAge: 24,
     isTure: false
 };
+var ninija;
+ninija = [{ Firts: "moiz" }];
+console.log(ninija);
 // console.log(obj1);
