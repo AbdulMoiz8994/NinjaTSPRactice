@@ -19,6 +19,12 @@ let nameFirst:string="Abdulllah"
 let NumberFirst:number;
 NumberFirst=1
 
+let arr4: (string | boolean)[]=[];
+arr4=["Abdul Moiz"]
+console.log(arr);
+
+
+
 let arr3: string | boolean;
 // arr3=true
 // arr3=1
@@ -32,7 +38,7 @@ let obj={
 console.log(obj.age);
 
 let obj1:{
-    firstName: string,
+    firstName?: string,
      lastName: number,
      isAge: number,
      isTure: boolean
@@ -43,18 +49,32 @@ let obj1:{
 // obj1.isAge=12
 
 obj1={
-  firstName: "moiz",
+  // firstName: "moiz",
   lastName: 10,
   isAge: 24,
   isTure: false
-
-
 }
+
 let ninija: object;
 ninija=[{Firts: "moiz"}]
 console.log(ninija);
 
-// console.log(obj1);
+ninija={
+  from1: "Abdul moiz",
+  from2: 12,
+  form3: ["moiz"]
+};
+console.log(ninija);
 
 
+let object3:{
+  firstName: string,
+  lastName: string
+  id: number,
+};
 
+object3={
+  firstName: "Abdul moiz",
+  lastName: "khanzada",
+  id:12
+}

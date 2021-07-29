@@ -1,3 +1,4 @@
+"use strict";
 var names = "Abdul moiz";
 var value = 12;
 var isTure = true;
@@ -14,6 +15,9 @@ arr2 = ["Abdul moiz", "Khanzada"];
 var nameFirst = "Abdulllah";
 var NumberFirst;
 NumberFirst = 1;
+var arr4 = [];
+arr4 = ["Abdul Moiz"];
+console.log(arr);
 var arr3;
 // arr3=true
 // arr3=1
@@ -27,7 +31,7 @@ var obj1;
 // obj1.firstName="Names";
 // obj1.isAge=12
 obj1 = {
-    firstName: "moiz",
+    // firstName: "moiz",
     lastName: 10,
     isAge: 24,
     isTure: false
@@ -35,4 +39,15 @@ obj1 = {
 var ninija;
 ninija = [{ Firts: "moiz" }];
 console.log(ninija);
-// console.log(obj1);
+ninija = {
+    from1: "Abdul moiz",
+    from2: 12,
+    form3: ["moiz"]
+};
+console.log(ninija);
+var object3;
+object3 = {
+    firstName: "Abdul moiz",
+    lastName: "khanzada",
+    id: 12
+};
